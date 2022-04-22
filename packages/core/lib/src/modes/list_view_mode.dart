@@ -88,9 +88,9 @@ class ListViewMode extends RenderMode {
       keyboardDismissBehavior: keyboardDismissBehavior,
       padding: padding,
       primary: primary,
-      physics: physics,
+      physics: NeverScrollableScrollPhysics(),
       restorationId: restorationId,
-      shrinkWrap: shrinkWrap,
+      shrinkWrap: true,
     );
   }
 }
