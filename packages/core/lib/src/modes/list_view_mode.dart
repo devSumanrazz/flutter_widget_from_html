@@ -63,7 +63,7 @@ class ListViewMode extends RenderMode {
     this.primary,
     this.physics,
     this.restorationId,
-    this.shrinkWrap = false,
+    this.shrinkWrap = true,
   });
 
   @override
